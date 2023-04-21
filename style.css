@@ -1,0 +1,142 @@
+body { 
+    font-family: "Roboto", sans-serif, serif, monospace;
+    margin: 0;
+    font-size: 18px;
+}
+
+.Hero {
+    background-color: #1F2937;
+    color: #f9faf8;
+    padding: 20px 200px;
+}
+
+ul { 
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+a, 
+.subtext {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb; 
+}
+
+button { 
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+    border-radius: 8px;
+    width: 100px;
+    height: 30px;
+    border: 1px solid white;
+}
+
+.testimony { 
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937
+}
+
+/* main designs here */
+
+.first-part {
+    display: flex;
+    justify-content: space-between;
+}
+.second-part {
+    display: flex;
+    padding: 100px 0;
+    gap: 40px;
+
+}
+.left-part { 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.right-part { 
+    padding-right: 30px;
+}
+.hero-img {
+    height: 300px;
+    width: 800px;
+}
+.hero-main { 
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.info-title {
+    display: flex;
+    justify-content: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    padding-top: 30px;
+}
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+.info img { 
+    width: 200px;
+    height: 200px;
+}
+
+.pic { 
+    border: 1px solid red;
+    max-width: 200px;
+}
+.testimony { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding-top: 150px; 
+    padding-bottom: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
+
+}
+.sig {
+    align-self: flex-end;
+    font-weight: 700;
+}
+
+.ad-container {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.ads {
+    display: flex;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 30px 70px;
+    align-items: center;
+    border-radius: 8px;
+    justify-content: space-around;
+    width: 1300px;
+    height: 100px;
+}
+.footer {
+    text-align: center;
+}
+
+.title { 
+    font-size: 24px;
+    font-weight: 700;
+}
